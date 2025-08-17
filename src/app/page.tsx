@@ -1,5 +1,5 @@
-import ProductList from "@/components/ProductList"
 import Image from "next/image"
+import ProductList from "@/components/ProductList"
 
 const HomePage = async({ searchParams }: { searchParams: Promise<{ category: string }> }) => {
 
