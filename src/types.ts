@@ -16,3 +16,5 @@ export type CartItemType = ProductType & {
   selectedSize : string;
   selectedColor: string;
 };
+
+export type CartItemsType = CartItemType[];
