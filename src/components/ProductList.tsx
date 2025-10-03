@@ -1,8 +1,8 @@
 import Link from "next/link";
-import { ProductsType } from "@/types";
-import Categories from "./Categories";
 import Filter from "./Filter";
+import Categories from "./Categories";
 import ProductCard from "./ProductCard";
+import { ProductsType } from "@/types";
 
 // TEMPORARY
 const products: ProductsType = [
